@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header>h3{
+    padding-left: 31px;
+    padding-top: 32px;
+}
+.header>h4{
+    padding-right: 33px;
+    padding-top: 32px;
+
+}
+
+.wrapper{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.cardWrapper{
+    margin-top: 18px;
+}
+.toggleText{
+    color: var(--color-primary);
+    cursor: pointer;
+}
